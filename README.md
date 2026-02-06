@@ -27,15 +27,18 @@ The GNN predicts **session-level trajectory status** and supports rapid clinicia
 ---
 
 ## Repository Structure
+
+```text
 ├── Data/
-│ ├── narratives.csv
-│ └── scores.csv
+│   ├── narratives.csv
+│   └── scores.csv
 └── Code/
-├── 1.ipynb
-└── 2.ipynb
+    ├── 1.ipynb
+    └── 2.ipynb
+```
 
 
-### `Data/`
+### `Data`
 
 #### `Data/narratives.csv`
 Synthetic therapy narratives in a session-by-session structure.
@@ -59,7 +62,7 @@ Session-level synthetic self-report outcomes aligned to PHQ-9 / GAD-7 style scor
 
 ---
 
-## `Code/`
+## `Code`
 
 `Code/1.ipynb` — Training & Evaluation Notebook
 
