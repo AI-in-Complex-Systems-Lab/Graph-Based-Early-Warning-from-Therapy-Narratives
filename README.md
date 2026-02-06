@@ -34,7 +34,7 @@ The GNN predicts **session-level trajectory status** and supports rapid clinicia
 │   └── scores.csv
 └── Code/
     ├── 1.ipynb
-    └── 2.ipynb
+    └── 2.py
 ```
 
 
