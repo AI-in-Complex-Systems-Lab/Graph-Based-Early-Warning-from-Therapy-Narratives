@@ -1,6 +1,8 @@
 # Graph-Based Early Warning from Therapy Narratives  
 ### A System-of-Systems Copilot for Behavioral Health (Research Prototype)
 
+![Dashboard preview](assets/dashboard.png)
+
 This repository contains a **research prototype** of a clinician-facing AI “copilot” designed to support **early warning detection** from therapy-style narratives. 
 The system is intentionally built to **augment—not replace—clinical judgment** by turning session transcripts into **temporally ordered sentence graphs** and producing **auditable, clinician-legible analytics**.
 
