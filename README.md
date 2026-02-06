@@ -61,9 +61,9 @@ Session-level synthetic self-report outcomes aligned to PHQ-9 / GAD-7 style scor
 
 ## `Code/`
 
-### `Code/1.ipynb` — Training & Evaluation Notebook
+`Code/1.ipynb` — Training & Evaluation Notebook
 
-### `Code/2.ipynb` — Interface / Dashboard Notebook
+`Code/2.ipynb` — Interface / Dashboard Notebook
 
 ---
 
