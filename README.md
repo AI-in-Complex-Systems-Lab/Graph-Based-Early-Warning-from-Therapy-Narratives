@@ -3,6 +3,7 @@
 
 ![Dashboard preview](assets/dashboard.png)
 
+
 This repository contains a **research prototype** of a clinician-facing AI “copilot” designed to support **early warning detection** from therapy-style narratives. 
 The system is intentionally built to **augment—not replace—clinical judgment** by turning session transcripts into **temporally ordered sentence graphs** and producing **auditable, clinician-legible analytics**.
 
@@ -87,5 +88,9 @@ If you build on this work, please cite the paper:
 **Graph-Based Early Warning from Therapy Narratives: A System-of-Systems Copilot for Behavioral Health**
 
 (We will provide the link when available.)
+
+**Demo:** https://therapy-narratives-dashboard.streamlit.app/  
+**Note:** For **Narrative Generation** and the **Annotator**, an **NVIDIA API key** must be supplied.
+
 
 
