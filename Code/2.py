@@ -331,7 +331,7 @@ def get_model_response(model_name, prompt):
 # -------- App Header ---
 col1, col2, col3 = st.columns([1.2, 5, 1])
 with col1:
-    st.image("ai_logo.png", width=140)
+    st.image("Code/ai_logo.png", width=140)
 with col2:
     st.markdown(
         f"<h1 style='text-align:center; color:{TEXT}; margin-bottom:0.4rem;'>"
@@ -344,8 +344,8 @@ with col2:
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
 # --- Load Encoders for GNN --------
-emotion_encoder = joblib.load("narrative_emotion_encoder.pkl")
-status_encoder = joblib.load("session_status_encoder.pkl")
+emotion_encoder = joblib.load("Code/narrative_emotion_encoder.pkl")
+status_encoder = joblib.load("Code/session_status_encoder.pkl")
 
 # -------- Load Embedding Model for GNN ---
 embedder = SentenceTransformer("intfloat/e5-large-v2")
@@ -415,8 +415,8 @@ EMOTIONS = [
 ]
 
 # --- Load Data -------------
-df = pd.read_csv("narratives.csv")
-scores_df = pd.read_csv("scores.csv")
+df = pd.read_csv("Data/narratives.csv")
+scores_df = pd.read_csv("Data/scores.csv")
 
 # --- Sidebar ---
 st.sidebar.header("Session Filter")
