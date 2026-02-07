@@ -7,6 +7,10 @@ numpy
 --extra-index-url https://download.pytorch.org/whl/cpu
 torch
 
+# PyTorch Geometric (needed for: from torch_geometric.nn import ...)
+--find-links https://data.pyg.org/whl/torch-2.2.0+cpu.html
+torch-geometric
+
 transformers
 sentence-transformers
 
