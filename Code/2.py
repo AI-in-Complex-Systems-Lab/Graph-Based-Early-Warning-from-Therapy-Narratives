@@ -394,7 +394,7 @@ model = GATv2MultiTask_Small(
     num_graph_classes=len(status_encoder.classes_),
     heads=2, dropout=0.35
 ).to(device)
-model.load_state_dict(torch.load("gnn_multitask_best_fold4.pth", map_location=device))
+model.load_state_dict(torch.load("Code/gnn_multitask_best_fold4.pth", map_location=device))
 model.eval()
 
 # ---------- Freeze graph head ---------------
